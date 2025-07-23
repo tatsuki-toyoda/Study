@@ -50,3 +50,7 @@
   height: 150px;
   float: left;
 }
+.clearfix {
+  width: 400px;
+  height: 450px;
+}

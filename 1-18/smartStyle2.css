@@ -1,0 +1,118 @@
+@media screen and (max-width: 767px) {
+    
+.a1 {
+  background-color: #efce7a;
+  width: 300px;
+  height: 100px;
+}
+
+.a2 {
+  background-color: #9dddf4;
+  width: 100px;
+  height: 250px;
+  float: left;
+}
+
+.a3 {
+  background-color: #c2ffc8;
+  width: 125px;
+  height: 50px;
+  float: left;
+}
+
+.a4 {
+  background-color: #f89c9c;
+  width: 75px;
+  height: 150px;
+  float: left;
+}
+
+.a5 {
+  background-color: #FFc2c5;
+  width: 125px;
+  height: 100px;
+  float: left;
+}
+.a6 {
+  background-color: #FFF083;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+.a7 {
+  background-color: #BEA5FF;
+  width: 300px;
+  height: 100px;
+  float: left;
+}
+
+.oya {
+  width: 125px;
+  height: 150px;
+  float: left;
+}
+.clearfix {
+  width: 300px;
+  height: 450px;
+}
+}
+
+@media screen and (max-width: 479px) {
+    
+.a1 {
+  background-color: #efce7a;
+  width: 150px;
+  height: 100px;
+}
+
+.a2 {
+  background-color: #9dddf4;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.a3 {
+  background-color: #c2ffc8;
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+
+.a4 {
+  background-color: #f89c9c;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.a5 {
+  background-color: #FFc2c5;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+.a6 {
+  background-color: #FFF083;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+.a7 {
+  background-color: #BEA5FF;
+  width: 150px;
+  height: 100px;
+  float: left;
+}
+
+.oya {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+.clearfix {
+  width: 150px;
+  height: 650px;
+}
+}
+
