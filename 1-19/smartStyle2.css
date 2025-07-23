@@ -1,0 +1,124 @@
+@media screen and (max-width: 479px) {
+.wrapper{
+  width: 200px;
+  height: 450px;
+}
+.header{
+  background-color: #ffce7a;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.oyabox{
+  background-color: white;
+  width: 60px;
+  height: 160px;
+  margin: 20px 70px 20px 70px ;
+}
+.kobox{
+  background-color: #c2ffcb;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.kobox2{
+  background-color: #c2ffcb;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10PX;
+  margin-right: 10px;
+  float: left;
+}
+.kobox3{
+  background-color: #c2ffcb;
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+.left{
+  background-color: #9dddf4;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+.right{
+  background-color: #c2ffcb;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+.box1{
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 20px;
+  float: left;
+}
+.inbox1{
+  background-color: #ffc2c5;
+  height: 40px;
+  width: 140px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.box2{
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 20px;
+  float: left;
+}
+.inbox2{
+  background-color: #ffc2c5;
+  height: 40px;
+  width: 140px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.box3{
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 20px;
+  float: left;
+}
+.inbox3{
+  background-color: #ffc2c5;
+  height: 40px;
+  width: 140px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.footer{
+  background-color: #bea5fe;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+}
