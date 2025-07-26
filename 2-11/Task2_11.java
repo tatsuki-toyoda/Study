@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 /**
 * Task2-11 : 課題内容
@@ -26,11 +26,11 @@ public class Task2_11 {
     int a = 10;
     int b = 3;
 
-    System.out.println(a+b);
-    System.out.println(a-b);
-    System.out.println(a*b);
-    System.out.println(a/b);
-    System.out.println(a%b);
+    System.out.println("和： " + (a+b));
+    System.out.println("差： " + (a-b));
+    System.out.println("積： " + (a*b));
+    System.out.println("商： " + (a/b));
+    System.out.println("余り：" + (a%b));
 
 
     /*
@@ -41,7 +41,7 @@ public class Task2_11 {
 int[] num = new int[10];
 for (int i = 0; i < num.length; i++){
     num[i] = (i + 1) * 2;
- System.out.println("num[" + i + "] = " + num[i]);
+ System.out.println(num[i]);
 }
 
 
