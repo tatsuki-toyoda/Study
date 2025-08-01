@@ -16,4 +16,4 @@ public class Child extends Parent{
    public void update() {
         System.out.println("上書きされました");
     }
-}
+} 

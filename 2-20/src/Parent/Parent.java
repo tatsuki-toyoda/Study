@@ -21,4 +21,4 @@ public class Parent {
     public void argument(int number1, int number2) {
         System.out.println("引数が" + (number1 + number2) + "つのものが呼び出されました。");
     }
-}
+} 
