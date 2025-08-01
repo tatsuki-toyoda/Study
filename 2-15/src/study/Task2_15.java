@@ -27,16 +27,16 @@ public class Task2_15 {
 
        // ③ bike1とbike2にcheckを設定する(出力結果通りに)
 
-        bike1.stop();
+        bike1.run();
 
-        bike2.run(); 
+        bike2.stop(); 
       
         
         // ④ bike1とbike2のtypeを変更する(出力結果通りに)
 
         bike1.type = "250cc";
         
-        bike2.type = "400cc";
+        bike2.type = "250cc";
        
 
         System.out.println("car1は" + red + "色で" + bike1.type + "タイプです。 現在" + bike1.check());
