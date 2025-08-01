@@ -83,7 +83,8 @@
   background-color: #f89c9c;
   width: 150px;
   height: 100px;
-  float: left;
+  position: relative;
+  top: -150px; 
 }
 
 .a5 {
@@ -108,7 +109,8 @@
 .oya {
   width: 150px;
   height: 150px;
-  float: left;
+  position: relative;
+  top: 100px;
 }
 .clearfix {
   width: 150px;
