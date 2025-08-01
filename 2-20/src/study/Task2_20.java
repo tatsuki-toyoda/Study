@@ -6,6 +6,7 @@ public class Task2_20 {
 
     public static void main(String[] args) {
         //④子クラスを元にしたインスタンスを作成して下さい。(インスタンス名：child)
+        
         Child child = new Child(); 
         
         //⑤インスタンスchildでcallNameメソッドを呼び出して下さい。
