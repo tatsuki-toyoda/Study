@@ -73,4 +73,4 @@ goods_code = 'S987' and store_code = 'EA01';
 
 DELETE FROM stock_table
 WHERE 
-goods_code = 'Z939' and store_code = 'EA04';     
+goods_code = 'Z939' and store_code = 'EA04';  
