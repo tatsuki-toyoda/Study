@@ -35,16 +35,18 @@ public class Task2_23 {
 
         //ここに解答
         System.out.println(ishitani.getLanguage());
-        
+    
         //⑤「〇〇が△△を学んでいます」という表示で山田さん、石谷さんが何を学んでいるか出力して下さい。
         
         //ここに解答
-        Student yamada1 = new Student("山田太郎", Constants.LANGUAGE_JAVA);
-        Student ishitani1 = new Student("石谷花子", Constants.LANGUAGE_HTML);
+      
         
-        yamada1.studyLanguage();
-        ishitani1.studyLanguage();
-
+         yamada = new Student("山田太郎", Constants.LANGUAGE_JAVA);
+         ishitani = new Student("石谷花子", Constants.LANGUAGE_HTML);
+        
+        yamada.studyLanguage();
+        ishitani.studyLanguage();
+       
     }
 
-}
+    }
