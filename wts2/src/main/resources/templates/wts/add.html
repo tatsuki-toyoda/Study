@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/head :: head_fragment(title = 'ウォーターサーバー新規登録',
+                                               scripts = ~{::script},
+                                               links = ~{::link})"></head>
+<body>
+ <div class="container">
+   <h1>ウォーターサーバー新規登録</h1>
+
+   <form th:action="@{/wts/create}" th:object="${wtsRequest}" method="post">
+
+     <div class="form-group">
+       <label>サーバー名：<span class="text-danger">※</span></label>
+       <input type="text" th:field="*{serverName}" class="form-control">
+     </div>
+
+     <div class="form-group">
+       <label>メーカー：<span class="text-danger">※</span></label>
+       <input type="text" th:field="*{maker}" class="form-control">
+     </div>
+
+     <div class="form-group">
+       <label>値段：<span class="text-danger">※</span></label>
+       <input type="number" th:field="*{price}" class="form-control">
+       
+	   
+       <div th:if="${#fields.hasErrors('price')}"
+            th:errors="*{price}"
+            class="text-danger"></div>
+			
+			
+     </div>
+
+     <div class="text-center">
+       <a th:href="@{/wts/list}" class="btn btn-secondary">キャンセル</a>
+       <input type="submit" value="登録" class="btn btn-primary">
+     </div>
+   </form>
+ </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/head :: head_fragment(title = 'ウォーターサーバー情報一覧', scripts = ~{::script}, links = ~{::link})"></head>
+<body>
+ <div class="container">
+   <h1>ウォーターサーバー情報一覧</h1>
+   <div class="float-end">
+     <a th:href="@{/wts/add}" class="btn btn-primary">新規登録はこちら</a>
+   </div>
+   <table class="table table-striped">
+     <thead>
+       <tr>
+         <th>ID</th>
+         <th>サーバー名</th>
+         <th>メーカー</th>
+         <th>値段</th>
+         <th></th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr th:each="server  : ${wtslist}" th:object="${server}" class="align-middle">
+         <td th:text="*{id}"></td>
+         <td th:text="*{serverName}"></td>
+         <td th:text="*{maker}"></td>
+         <td th:text="*{price}"></td>
+         <td><a th:href="@{/wts/{id}(id=*{id})}" class="btn btn-secondary">詳細</a></td>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+</body>
+</html>
